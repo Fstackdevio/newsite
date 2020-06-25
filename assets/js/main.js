@@ -434,5 +434,5 @@
     };
 
     axilKey.k();
-
+$("#footerContainer").load("../../footer.html");
 })(window, document, jQuery);
