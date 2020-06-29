@@ -945,6 +945,8 @@ button.axil-button {
 
 .footer-default .footer-widget-item ul.ft-menu li a, .copyright-default .quick-contact ul li a {
   font-weight: 400;
+  padding-left: 100px;
+  padding-right: 100px;
 }
 
 .textUpper {
@@ -6785,6 +6787,10 @@ textarea:-ms-input-placeholder {
 .plr--100 {
   padding: 0 100px;
 }
+.plr--1000 {
+  padding-left:100px;
+  padding-right: 100px;
+}
 
 .pt--100 {
   padding-top: 100px;
@@ -6800,6 +6806,12 @@ textarea:-ms-input-placeholder {
 
 .pr--100 {
   padding-right: 100px;
+}
+@media screen and (min-width:1024px){
+  .ppplr--100{
+    padding-left: 100px;
+    padding-right: 100px;
+   }
 }
 
 .mt--100 {
@@ -10505,7 +10517,7 @@ textarea:-ms-input-placeholder {
 
 /*======= Common Style Css ======*/
 .primary-color {
-  color: #702FFF !important;
+  color: #005792 !important;
 }
 
 .secondary-color {
@@ -10690,7 +10702,7 @@ textarea:-ms-input-placeholder {
 }
 
 .bg-primary-color {
-  background: #702FFF !important;
+  background: #005792 !important;
 }
 
 .bg-secondary-color {
@@ -10718,7 +10730,7 @@ textarea:-ms-input-placeholder {
 }
 
 .bg-extra05-color {
-  background: #7A19FF !important;
+  background: #005792 !important;
 }
 
 .bg-extra06-color {
@@ -10797,7 +10809,7 @@ textarea {
   padding: 0;
   outline: none;
   border: 0 none;
-  border-bottom: 2px solid #C7C7D5;
+  border-bottom: 2px solid #005792;
   /* -- Placeholder -- */
 }
 
@@ -10806,7 +10818,7 @@ input[type="password"]::-webkit-input-placeholder,
 input[type="email"]::-webkit-input-placeholder,
 input[type="number"]::-webkit-input-placeholder,
 textarea::-webkit-input-placeholder {
-  color: #757589;
+  color: #005792;
   /* Firefox */
   opacity: 1;
 }
@@ -11155,7 +11167,7 @@ input[type="password"]:focus,
 input[type="email"]:focus,
 input[type="number"]:focus,
 textarea:focus {
-  border-color: #702FFF;
+  border-color: #005792;
 }
 
 input[type="checkbox"],
@@ -22009,7 +22021,7 @@ Single Demo Area
 }
 
 .newsletter-form input {
-  width: 330px;
+  width: 230px;
   padding-bottom: 8px;
 }
 
