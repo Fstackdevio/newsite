@@ -19041,7 +19041,7 @@ ul.axil-breadcrumb li.axil-breadcrumb-item + .axil-breadcrumb-item::before {
   font-size: 35px;
   line-height: 46px;
   margin-bottom: 0;
-  color: #702FFF;
+  color: #005792;
 }
 
 .single-counterup.counterup-style-1 h3.count::after {
